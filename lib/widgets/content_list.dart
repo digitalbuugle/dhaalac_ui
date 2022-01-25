@@ -33,7 +33,7 @@ class ContentList extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: isOriginals ? 500.0 : 220.0,
+            height: isOriginals ? 350.0 : 200.0,
             child: ListView.builder(
               padding: const EdgeInsets.symmetric(
                 vertical: 12.0,
@@ -48,12 +48,13 @@ class ContentList extends StatelessWidget {
                   onTap: () => print(content.name),
                   child: Container(
                     margin: const EdgeInsets.symmetric(horizontal: 8.0),
-                    height: isOriginals ? 400.0 : 200.0,
-                    width: isOriginals ? 200.0 : 130.0,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage(content.imageUrl),
-                        fit: BoxFit.cover,
+                    child: Ink.image(
+                      image: AssetImage(content.imageUrl),
+                      fit: BoxFit.cover,
+                      height: isOriginals ? 350.0 : 240.0,
+                      width: isOriginals ? 220.0 : 130.0,
+                      child: InkWell(
+                        onTap: () async {},
                       ),
                     ),
                   ),

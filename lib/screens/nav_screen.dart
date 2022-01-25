@@ -22,10 +22,10 @@ class _NavScreenState extends State<NavScreen> {
 
   final Map<String, IconData> _icons = const {
     'Home': Icons.home,
-    'Search': Icons.search,
-    'Coming Soon': Icons.queue_play_next,
+    'Coming Soon': Icons.subscriptions,
     'Downloads': Icons.file_download,
-    'More': Icons.menu,
+    'Search': Icons.search,
+    'Account': Icons.person,
   };
 
   int _currentIndex = 0;
@@ -52,7 +52,7 @@ class _NavScreenState extends State<NavScreen> {
                   .toList(),
               currentIndex: _currentIndex,
               selectedItemColor: Colors.white,
-              selectedFontSize: 11.0,
+              selectedFontSize: 11.5,
               unselectedItemColor: Colors.grey,
               unselectedFontSize: 11.0,
               onTap: (index) => setState(() => _currentIndex = index),

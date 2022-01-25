@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     _scrollController = ScrollController()
       ..addListener(() {
-        context.watch<AppBarCubit>().setOffset(_scrollController!.offset);
+        context.read<AppBarCubit>().setOffset(_scrollController!.offset);
       });
     super.initState();
   }
@@ -34,12 +34,6 @@ class _HomeScreenState extends State<HomeScreen> {
     final Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
       extendBodyBehindAppBar: true,
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.grey[850],
-        child: const Icon(Icons.cast),
-        // ignore: avoid_print
-        onPressed: () => print('Cast'),
-      ),
       appBar: PreferredSize(
         preferredSize: Size(screenSize.width, 50.0),
         child: BlocBuilder<AppBarCubit, double>(

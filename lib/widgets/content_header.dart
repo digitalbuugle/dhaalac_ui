@@ -60,18 +60,24 @@ class _ContentHeaderMobile extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              VerticalIconButton(
-                icon: Icons.add,
-                title: 'List',
-                // ignore: avoid_print
-                onTap: () => print('My List'),
+              Column(
+                children: const [
+                  AddButton(),
+                  Text(
+                    'My List',
+                    style: TextStyle(fontSize: 10.0),
+                  )
+                ],
               ),
               const PlayButton(),
-              VerticalIconButton(
-                icon: Icons.info_outline,
-                title: 'Info',
-                // ignore: avoid_print
-                onTap: () => print('Info'),
+              Column(
+                children: const [
+                  InfoButton(),
+                  Text(
+                    'Info',
+                    style: TextStyle(fontSize: 10.0),
+                  )
+                ],
               ),
             ],
           ),
@@ -219,7 +225,8 @@ class InfoButton extends StatefulWidget {
   final double size;
   final Color color;
 
-  const InfoButton({Key? key, this.size = 24, this.color = Colors.white70}) : super(key: key);
+  const InfoButton({Key? key, this.size = 24, this.color = Colors.white70})
+      : super(key: key);
 
   @override
   _InfoButtonState createState() => _InfoButtonState();
@@ -284,5 +291,45 @@ class _PlayButtonState extends State<PlayButton> {
         setState(() => obscure = !obscure);
       },
     );
+  }
+}
+
+class AddButton extends StatefulWidget {
+  final double size;
+  final Color color;
+
+  const AddButton({Key? key, this.size = 24, this.color = Colors.white70})
+      : super(key: key);
+
+  @override
+  _AddButtonState createState() => _AddButtonState();
+}
+
+class _AddButtonState extends State<AddButton> {
+  IconData iconData = Icons.add;
+  // ↑ Moving the state up to here
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: TextButton(
+        style: TextButton.styleFrom(
+          backgroundColor: Colors.transparent,
+          primary: Colors.white70,
+        ),
+        child: Icon(
+          iconData,
+          size: widget.size,
+          color: widget.color,
+        ),
+        onPressed: toggleLike,
+      ),
+    );
+  }
+
+  void toggleLike() {
+    setState(() {
+      iconData = iconData == Icons.done ? Icons.add : Icons.done;
+    });
   }
 }
