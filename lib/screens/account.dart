@@ -388,7 +388,7 @@ class MySliverAppBar extends SliverPersistentHeaderDelegate {
         Center(
           child: Opacity(
             opacity: shrinkOffset / expandedHeight,
-            child: const Text("Mudane/Marwo"),
+            child: const Text("Mohamed Osman Abdulle"),
           ),
         ),
         Positioned(
@@ -401,7 +401,10 @@ class MySliverAppBar extends SliverPersistentHeaderDelegate {
               child: SizedBox(
                 height: expandedHeight,
                 width: MediaQuery.of(context).size.width / 2,
-                child: Image.asset(Assets.avatar),
+                child: Image.asset(
+                  Assets.avatar,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ),

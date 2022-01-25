@@ -34,7 +34,7 @@ class Assets {
   static const String indhojecel = '${_images}indho_jecel.png';
 
   static const String whatsApp = '${_images}whatsapp.jpg';
-  static const String avatar = '${_images}avatar.jpg';
+  static const String avatar = '${_images}jaras.jpg';
   static const String chat = '${_images}chat.jpg';
   static const String background = '${_images}a.jpg';
 
