@@ -1,3 +1,4 @@
+import 'package:dhaalac_ui/screens/downloads.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dhaalac_ui/cubits/cubits.dart';
@@ -5,6 +6,7 @@ import 'package:dhaalac_ui/screens/screens.dart';
 import 'package:dhaalac_ui/widgets/widgets.dart';
 
 import 'account.dart';
+import 'search.dart';
 
 class NavScreen extends StatefulWidget {
   const NavScreen({Key? key}) : super(key: key);
@@ -17,8 +19,8 @@ class _NavScreenState extends State<NavScreen> {
   final List<Widget> _screens = [
     const HomeScreen(key: PageStorageKey('homeScreen')),
     const Scaffold(),
-    const Scaffold(),
-    const Scaffold(),
+    const Downloads(),
+    const Search(),
     const Account(),
   ];
 
