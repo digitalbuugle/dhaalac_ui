@@ -33,6 +33,11 @@ class Assets {
   static const String sadexkumi = '${_images}sadex_kumi.jpg';
   static const String indhojecel = '${_images}indho_jecel.png';
 
+  static const String whatsApp = '${_images}whatsapp.jpg';
+  static const String avatar = '${_images}avatar.jpg';
+  static const String chat = '${_images}chat.jpg';
+  static const String background = '${_images}a.jpg';
+
   static const String gabadhiilaciilay = '${_images}gabadhii_la_ciilay.png';
   static const String geesigiiaabehey = '${_images}geesigii_aabehey.png';
   static const String gumeysi = '${_images}gumeysi.png';

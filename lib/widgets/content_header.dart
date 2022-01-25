@@ -166,21 +166,21 @@ class __ContentHeaderDesktopState extends State<_ContentHeaderDesktop> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 15.0),
-                Text(
-                  widget.featuredContent.description!,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.w500,
-                    shadows: [
-                      Shadow(
-                        color: Colors.black,
-                        offset: Offset(2.0, 4.0),
-                        blurRadius: 6.0,
-                      ),
-                    ],
-                  ),
-                ),
+                // Text(
+                //   widget.featuredContent.description!,
+                //   style: const TextStyle(
+                //     color: Colors.white,
+                //     fontSize: 18.0,
+                //     fontWeight: FontWeight.w500,
+                //     shadows: [
+                //       Shadow(
+                //         color: Colors.black,
+                //         offset: Offset(2.0, 4.0),
+                //         blurRadius: 6.0,
+                //       ),
+                //     ],
+                //   ),
+                // ),
                 const SizedBox(height: 20.0),
                 Row(
                   children: [

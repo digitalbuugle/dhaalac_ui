@@ -4,6 +4,8 @@ import 'package:dhaalac_ui/cubits/cubits.dart';
 import 'package:dhaalac_ui/screens/screens.dart';
 import 'package:dhaalac_ui/widgets/widgets.dart';
 
+import 'account.dart';
+
 class NavScreen extends StatefulWidget {
   const NavScreen({Key? key}) : super(key: key);
 
@@ -17,7 +19,7 @@ class _NavScreenState extends State<NavScreen> {
     const Scaffold(),
     const Scaffold(),
     const Scaffold(),
-    const Scaffold(),
+    const Account(),
   ];
 
   final Map<String, IconData> _icons = const {
