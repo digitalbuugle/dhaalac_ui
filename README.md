@@ -1,6 +1,6 @@
 # Flutter Dhaalac Responsive UI Repo | Web and Mobile
 
-![Mobile Screenshot 0](screenshots/flutter_00.png)
+![Mobile Screenshot 0](screenshots/flutter_00.jpg)
 
 ![Mobile Screenshot 1](screenshots/flutter_01.png)
 
@@ -8,10 +8,10 @@
 
 ![Mobile Screenshot 3](screenshots/flutter_03.png)
 
-![Mobile Screenshot 3](screenshots/flutter_4.png)
+![Mobile Screenshot 3](screenshots/flutter_4.jpg)
 
-![Mobile Screenshot 3](screenshots/flutter_05.png) 
+![Mobile Screenshot 3](screenshots/flutter_06.mp4) 
 
-![Mobile Screenshot 3](screenshots/flutter_06.mp4)
+
 
 
