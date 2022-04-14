@@ -1,16 +1,36 @@
-# Flutter Dhaalac Responsive UI Repo | Web and Mobile
+# Flutter Dhaalac Responsive UI Repo | Web and Mobile & Desktop
 
-![Mobile Screenshot 0](screenshots/flutter_00.jpg)
+### Get Started
 
-![Mobile Screenshot 1](screenshots/flutter_01.png)
+```shell
+git clone https://github.com/digitalbuugle/dhaalac_ui.git
+flutter clean
+flutter packages get
+flutter run
+```
 
-![Mobile Screenshot 2](screenshots/flutter_02.png)
+### App Preview
 
-![Mobile Screenshot 3](screenshots/flutter_03.png)
+|              Home             |             Details           |             Booking Page           |             Saved           |
+| :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
+| <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_02.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_03.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_04.png" width="350"> |
 
-![Mobile Screenshot 4](screenshots/flutter_04.jpg)
+### Design Template
+<a href="https://www.figma.com/community/file/1075755566012989715/Movie-Ticket-Booking-Apps" target="_blank"><img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/cover.png"
+alt="Space Berrry" width="60%" /></a>
 
-![Mobile Screenshot 6](screenshots/flutter_06.mp4) 
+### ⚡️ My Social Medias
+
+Twitter: [@digitalbuugle](https://twitter.com/digitalbuugle)
+
+Instagram: [@digitalbuugle](https://instagram.com/digitalbuugle)
+
+Facebook: [@digitalbuugle](https://www.facebook.com/ydigitalbuugle)
+
+LinkedIn: [@digitalbuugle](https://linkedin.com/in/mdigitalbuugle)
+
+GitHub: [@digitalbuugle](https://github.com/digitalbuugle)
+
 
 
 
