@@ -1,4 +1,4 @@
-# Flutter Dhaalac Responsive UI Repo | Web and Mobile & Desktop
+# Dhaalac Responsive UI Repo | Web and Mobile & Desktop |
 
 ### Get Started
 
@@ -13,7 +13,7 @@ flutter run
 
 |              Home             |             Details           |             Booking Page           |             Saved           |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_02.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_03.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_04.png" width="350"> |
+| <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/1.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_02.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_03.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/flutter_04.jpg" width="350"> |
 
 ### Design Template
 <a href="https://www.figma.com/community/file/1075755566012989715/Movie-Ticket-Booking-Apps" target="_blank"><img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/main/screenshots/cover.png"
