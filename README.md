@@ -15,9 +15,9 @@ flutter run
 | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
 | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_02.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_03.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_04.jpg" width="350"> |
 
-### Facebooks Post 
+### Facebooks Post  advertising Dhaalac App
 <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_00.jpg"
-alt="Space Berrry" width="60%" /></a>
+alt="Space Berrry" width="80%" /></a>
 
 ### ⚡️ My Social Medias
 
