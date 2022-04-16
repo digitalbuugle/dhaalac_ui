@@ -11,12 +11,13 @@ flutter run
 
 ### App Preview
 
-|              Home             |             Details           |             Booking Page           |             Saved           |
+|              Home             |             Details           |             User Account           |             Coming Soon         |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
 | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_02.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_03.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_04.jpg" width="350"> |
 
 ### Facebooks Post 
-
+<img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/cover.png"
+alt="Space Berrry" width="60%" /></a>
 
 ### ⚡️ My Social Medias
 
