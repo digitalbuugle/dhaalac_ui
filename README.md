@@ -13,7 +13,7 @@ flutter run
 
 |              Home             |             Details           |             User Account           |             Coming Soon         |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_07.jpg" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_03.png" width="350"> | <video src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_06.mp4" width="350"> |
+| <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_01.png" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_07.jpg" width="350"> | <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_03.png" width="350"> | <video src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_07.mp4"></video> |
 
 ### Facebook Post  advertising Dhaalac App
 <img src="https://raw.githubusercontent.com/digitalbuugle/dhaalac_ui/master/screenshots/flutter_00.jpg"
